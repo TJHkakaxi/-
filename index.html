@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的网页</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1d2671, #c33764);
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 600px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      padding: 40px 30px;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #222;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 17px;
+      color: #555;
+      margin-bottom: 25px;
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #c33764;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #a82d54;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>欢迎来到我的网页</h1>
+    <p>这是我为你制作的一个空调，宝宝不要中暑了。</p>
+    <a class="btn" href="https://wxurl.cn/PME" target="_blank">点击进入</a>
+    <footer>作者：执笔谈离愁</footer>
+  </div>
+</body>
+</html>
